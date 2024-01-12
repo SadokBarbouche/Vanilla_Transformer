@@ -109,7 +109,6 @@ class ResidualConnection(nn.Module):
     def __init__(self, dropout: float):
         super().__init__()
         self.dropout = nn.Dropout(dropout)
-        g
         self.norm = LayerNormalization()
 
     # Add and Norm
